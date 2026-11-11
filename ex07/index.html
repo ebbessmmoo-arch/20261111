@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex07 글 추가 / 삭제</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>ex07 글 추가 / 삭제</h1>
+
+    <form id="guestbook-form">
+        <label>
+            이름:
+            <input id="name" type="text" placeholder="이름을 입력하세요">
+        </label>
+        <label>
+            글:
+            <input id="message" type="text" placeholder="글을 입력하세요">
+        </label>
+        <button type="submit">추가</button>
+    </form>
+
+    <p id="notice" aria-live="polite"></p>
+    <ul id="list"></ul>
+    <div id="count">0개</div>
+</body>
+</html>
